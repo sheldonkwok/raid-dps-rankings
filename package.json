@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "npm run build && node lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "~9.3.4",
+    "mz": "~2.7.0",
+    "puppeteer": "~1.19.0"
+  },
+  "devDependencies": {
+    "@types/micro": "~7.3.3",
+    "@types/mz": "0.0.32",
+    "@types/puppeteer": "~1.19.0",
+    "typescript": "~3.5.3"
+  }
+}
